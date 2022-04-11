@@ -1011,7 +1011,7 @@ th {
 .home .entry-title {
     font-size: 36px;
     font-size: 3.6rem;
-    /* visibility: hidden; */
+    visibility: hidden;
 }
 
 .entry-title a,
@@ -1859,7 +1859,7 @@ li.donate > a {
 }
 
 /* --- front-page-2 widget area --- */
-#custom_html-2, #custom_html-3, #custom_html-4, #facebook_page_plugin_widget-2, #featured-post-3 {
+#custom_html-2, #custom_html-3, #custom_html-4, #facebook_page_plugin_widget-2 {
     clear: none; /* --- was both --- */
     margin: 0 0 40px;
     overflow: hidden;
