@@ -1858,9 +1858,8 @@ li.donate > a {
 	padding-bottom: 30px;
 }
 
-/* --- front-page-2 widget area - custom_html-30 is new FB plugin --- */
-/* --- text-align: left for custom_html-30 is in customize area   --- */
-#custom_html-2, #custom_html-3, #custom_html-4, #custom_html-30, #facebook_page_plugin_widget-2, #featured-post-3 {
+/* --- front-page-2 widget area --- */
+#custom_html-2, #custom_html-3, #custom_html-4, #facebook_page_plugin_widget-2, #featured-post-3 {
     clear: none; /* --- was both --- */
     margin: 0 0 40px;
     overflow: hidden;
@@ -3286,7 +3285,7 @@ blockquote {
 }
 
 /* --- front-page-2 area --- */
-#custom_html-2, #custom_html-3, #custom_html-4, #custom_html-30, #facebook_page_plugin_widget-2, #featured-post-3 {
+#custom_html-2, #custom_html-3, #custom_html-4, #facebook_page_plugin_widget-2 {
     clear: both;
     width: 100%;
     float: none;
