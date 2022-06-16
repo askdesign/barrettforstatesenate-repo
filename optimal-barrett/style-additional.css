@@ -1,0 +1,239 @@
+/*
+	Theme Name: Optimal Theme Barrett
+	Theme URI: http://appfinite.com/shop/optimal/
+	Description: Customized theme for Barrett, based on the Optimal theme
+	NOTE: Customizer > Additional CSS
+	Author: Anne S. Katzeff
+	Author URI: https://www.askdesign.biz
+
+	Version: 1.5.1
+
+	Tags: black, white, blue, green, orange, pink, one-column, two-columns, responsive-layout, custom-header, custom-menu, full-width-template, sticky-post, theme-options, threaded-comments, rtl-language-support
+
+	Template: genesis
+	Template Version: 2.2+
+
+	License: GPL-2.0+
+	License URI: http://www.opensource.org/licenses/gpl-license.php 
+*/
+.site-header {
+	background-color: #d1d6da;}
+
+/* --- hero and subscribe --- */
+.front-page-1, .front-page-7 {
+    background-color: #2c385b;
+    margin-top: 0;
+    position: relative;
+    z-index: -1;
+    padding-top: 48px;
+}
+
+/* --- subscribe --- */
+.front-page-7 {
+    margin-top: 0px;
+    position: relative;
+    z-index: 10;
+    padding-top: 40px;
+		padding-bottom: 40px
+}
+
+/* --- slider --- */
+.front-page-11 .flexible-widgets .wrap {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/* -- HOME DEV PAGE --- */
+/* --- force full-width --- */
+ .page-id-1081 .site-inner {
+	max-width: calc(100%);
+} 
+
+/* --- Ninja Forms --- */
+.nf-form-fields-required {
+	margin-bottom: 10px;
+}
+
+.nf-error-msg, 
+.ninja-forms-req-symbol,
+.nf-error .nf-error-msg {
+	color: #a90005 !important;
+}
+
+.nf-form-content .nf-error .ninja-forms-field {
+	border-color: #a90005 !important;
+	transition: all .5s;
+}
+
+.nf-error.field-wrap .nf-field-element:after {
+	background-color: #a90005 !important;
+}
+
+.nf-form-content label {
+	font-size: 16px !important;
+	line-height: 20px;
+}
+
+.nf-form-content .label-above .nf-field-label {
+	margin-bottom: 5px !important;
+	padding: 0;
+}
+
+#custom_html-10 {
+	padding: 0 20px;
+	margin-bottom: 0;
+}
+
+#custom_html-10 h4 {
+	color: #fff;
+}
+
+/* --- subscribe box in sidebars --- */
+#custom_html-9 {
+	background-color: #d1d6da;
+  padding: 10px;
+}
+
+
+/* --- Home subscribe form --- */
+ .page-id-1081 .nf-form-fields-required {
+   color: #fff;
+	 text-align: center;
+}
+
+.page-id-1081 .nf-field-label,
+.home .nf-field-label{
+    font-weight: 400;
+		color: #fff;
+}
+
+.page-id-1081 .nf-form-content
+.home .nf-form-content {
+    padding: 0;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.page-id-1081 .nf-field-container,
+.home .nf-field-container {
+    clear: none;
+    position: relative;
+    margin-bottom: 25px;
+    width: 33%;
+    float: left;
+	  padding-right: 1%;
+}
+
+.page-id-1081 #nf-field-12-container,
+.home #nf-field-12-container {
+	float: right;
+	text-align: right;
+	padding-right: 2%;
+}
+
+
+.page-id-1081 .nf-error-msg,
+.page-id-1081 .ninja-forms-req-symbol,
+.page-id-1081 .nf-error .nf-error-msg,
+.home .nf-error-msg,
+.home .ninja-forms-req-symbol,
+.home .nf-error .nf-error-msg {
+    color: #f29898 !important;
+	  clear: both;
+	  margin-bottom: 12px;
+}
+
+/* --- Other subscribe forms --- */
+.nf-form-layout .nf-form-content {
+    padding: 0;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+#nf-field-9-container {
+	padding-right: 0;
+}
+
+/* --- 2-columns on Volunteer form --- */
+#nf-field-32-container.nf-field-container, 
+#nf-field-35-container {
+		clear: none;
+    float: left;
+    width: 50%;
+}
+
+label#nf-label-field-35 {
+	visibility: hidden;
+}
+
+/* --- Ninja Forms buttons --- */
+.nf-form-content button, .nf-form-content input[type=button], .nf-form-content input[type=submit] {
+	background-color: #727678 !important;
+	color: #fff !important;
+}
+
+.nf-form-content button:hover, .nf-form-content input[type=button]:hover, .nf-form-content input[type=submit]:hover {
+    background-color: #b2b7bb !important;
+}
+
+/*--- Top of Blog widget - underneath Read More --- */
+p:empty:before {
+    content: none;
+}
+
+/* --- Smash Balloon FB widget --- */
+.cff-post-text,
+#cff .cff-shared-link {
+    text-align: left;
+}
+
+/* --- overriding original breakpoint for columns at 600px --- */
+
+@media only screen and (max-width: 800px) {
+.gb-layout-columns-3>.gb-layout-column-wrap.gb-is-responsive-column {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "col1"
+        "col2"
+        "col3";
+}
+	
+	.page-id-1081 .site-inner {
+    max-width: calc(100%);
+    padding-left: 0;
+    padding-right: 0;
+}
+	
+}
+
+
+@media only screen and (max-width: 550px) {
+.page-id-1081 .nf-field-container,
+.home .nf-field-container {
+    clear: none;
+    width: 100%;
+    float: none;
+	  padding-right: 0%;
+}
+
+.page-id-1081 #nf-field-12-container
+.home #nf-field-12-container {
+    float: none;
+    text-align: center;
+    padding-right: 0;
+}
+	
+/* --- 2-columns on Volunteer form --- */
+#nf-field-32-container.nf-field-container, 
+#nf-field-35-container {
+    clear: both;
+    float: none;
+    width: 100%;
+}
+	
+#nf-field-35-container {
+    margin-top: -55px;
+}
+	
+}
