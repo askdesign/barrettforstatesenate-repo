@@ -47,7 +47,7 @@
 /* --- force full-width --- */
  .page-id-1081 .site-inner {
 	max-width: calc(100%);
-} 
+}
 
 /* --- Ninja Forms --- */
 .nf-form-fields-required {
@@ -114,6 +114,14 @@
     margin: 0 auto;
 }
 
+.page-id-1081-nf-gb-container-content, .home-nf-gb-container-content {
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 12%;
+    padding-top: 1%;
+}
+
+/* --- Your Name | Email | Zip --- */
 .page-id-1081 .nf-field-container,
 .home .nf-field-container {
     clear: none;
@@ -124,6 +132,7 @@
 	  padding-right: 1%;
 }
 
+/* --- Send button --- */
 .page-id-1081 #nf-field-12-container,
 .home #nf-field-12-container {
 	float: right;
@@ -142,6 +151,9 @@
 	  clear: both;
 	  margin-bottom: 12px;
 }
+
+/* --- Send button --- */
+
 
 /* --- Other subscribe forms --- */
 .nf-form-layout .nf-form-content {
@@ -187,6 +199,18 @@ p:empty:before {
     text-align: left;
 }
 
+/* --- MEDIA QUERIES --- */
+@media only screen and (max-width: 1140px) {
+.page-id-1081-nf-gb-container-content, .home-nf-gb-container-content {
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 16%;
+    padding-top: 1%;
+}
+
+}
+
+
 /* --- overriding original breakpoint for columns at 600px --- */
 
 @media only screen and (max-width: 800px) {
@@ -199,12 +223,18 @@ p:empty:before {
         "col3";
 }
 	
-	.page-id-1081 .site-inner {
+.page-id-1081 .site-inner {
     max-width: calc(100%);
     padding-left: 0;
     padding-right: 0;
 }
-	
+
+	.page-id-1081-nf-gb-container-content, .home-nf-gb-container-content {
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 22%;
+    padding-top: 1%;
+}
 }
 
 
