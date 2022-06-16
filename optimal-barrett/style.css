@@ -708,10 +708,6 @@ th {
     margin-bottom: -24px;
 }
 
-.home .site-header .wrap {
-    margin-bottom: -54px;
-}
-
 .site-inner, .home .site-inner {
 	clear: both;
 	margin-top: 80px;
@@ -1011,7 +1007,7 @@ th {
 .home .entry-title {
     font-size: 36px;
     font-size: 3.6rem;
-    /* visibility: hidden; */
+/*---    visibility: hidden; ---*/
 }
 
 .entry-title a,
@@ -1859,7 +1855,7 @@ li.donate > a {
 }
 
 /* --- front-page-2 widget area - custom_html-30 is new FB plugin --- */
-/* --- text-align: left for custom_html-30 is in customize area   --- */
+/* --- text-align: left for custom_html-30 is in customize area.  --- */
 #custom_html-2, #custom_html-3, #custom_html-4, #custom_html-30, #facebook_page_plugin_widget-2, #featured-post-3 {
     clear: none; /* --- was both --- */
     margin: 0 0 40px;
@@ -3104,8 +3100,12 @@ blockquote {
 		padding: 0 5%;
 	}
 
-	.site-inner,
-	.wrap {
+	.home .site-inner {
+		padding-left: 0%;
+		padding-right: 0%;
+	}
+
+	.site-inner, .wrap {
 		padding-left: 5%;
 		padding-right: 5%;
 	}
@@ -3284,8 +3284,8 @@ blockquote {
 blockquote {
     font-size: 36px; /* --- back to original size until 414px --- */
 }
-
-/* --- front-page-2 area --- */
+	
+	/* --- front-page-2 area --- */
 #custom_html-2, #custom_html-3, #custom_html-4, #custom_html-30, #facebook_page_plugin_widget-2, #featured-post-3 {
     clear: both;
     width: 100%;
@@ -3389,6 +3389,7 @@ blockquote {
 	}
 
 }
+
 
 @media only screen and (max-width: 550px) {
 .site-header .wrap {

@@ -96,7 +96,8 @@
 
 
 /* --- Home subscribe form --- */
- .page-id-1081 .nf-form-fields-required {
+.page-id-1081 .nf-form-fields-required,
+.home .nf-form-fields-required {
    color: #fff;
 	 text-align: center;
 }
