@@ -22,7 +22,7 @@
 /* ## Advanced Style Area on Formsite 
 --------------------------------------------- */
 
-<style type="text/css" media="all">
+<style media="all">
 body {
 	background: #D1D6DA;
 	background-size: auto;
@@ -63,7 +63,7 @@ body {
 	width: auto;
 	margin: 1px;
 	color: #2C385B;
-	background: none;
+	background: #D1D6DA;
 	background-size: ;
 	background-repeat: repeat;
 	border-radius: ;
@@ -84,6 +84,9 @@ body {
 }
 
 .q .question {
+	color: #2C385B;
+	font-family: 'Cabin', sans-serif;
+	font-size: 15px;
 	font-weight: bold;
 }
 
@@ -96,15 +99,15 @@ body {
 }
 
 .q .text_field {
-    background: #FFFFFF;
-    border: 1px solid #CCCCCC;
-    border-radius: 0;
-    border-width: 1px;
-    color: #03619f;
-    font-family: 'Cabin', sans-serif;
-    font-size: 15px;
-    margin: 1px 0;
-    padding: 3px;
+	background: #FFFFFF;
+	border: 1px solid #CCCCCC;
+	border-radius: 0;
+	border-width: 1px;
+	color: #03619F;
+	font-family: 'Cabin', sans-serif;
+	font-size: 15px;
+	margin: 1px 0;
+	padding: 3px;
 }
 
 .q .file_upload {
@@ -112,19 +115,23 @@ body {
 	border: 1px solid #CCCCCC;
 	border-radius: 0;
 	border-width: 1px;
-	color: #000099;
+	color: #03619F;
 	font-family: 'Cabin', sans-serif;
-	font-size: 12px;
+	font-size: 15px;
 	margin-top: 1px;
-	padding: 2px 1px;
-}
-
-.q .file_upload_button {
-	margin-top: 2px;
+	padding: 3px;
 }
 
 .q .inline_grid td {
 	padding: 5px;
+}
+
+.q .choices input[type="checkbox"]:checked + label::before {
+	color: #2C385B;
+}
+
+.q .choices input[type="radio"]:checked + label::before {
+	color: #2C385B;
 }
 
 .q .drop_down {
@@ -132,15 +139,15 @@ body {
 	border: 1px solid #CCCCCC;
 	border-radius: 0;
 	border-width: 1px;
-	color: #000099;
+	color: #03619F;
 	font-family: 'Cabin', sans-serif;
-	font-size: 12px;
+	font-size: 15px;
 	margin: 1px 0;
-	padding: 2px 1px;
+	padding: 2px;
 }
 
 .q .matrix th {
-	color: #FFFFFF;
+	color: #2C385B;
 	background: #FFFFFF;
 	padding: 5px;
 	font-weight: bold;
@@ -187,20 +194,53 @@ body {
 	background: #F0F5FF;
 }
 
+.q .number_scale td input:checked + label {
+	color: #2C385B;
+}
+
 .q .rating_ranking td {
 	padding: 5px;
 }
 
-.q .scroller {
-	border: 1px solid #D1D6DA;
+.q .slider_range {
+	font-size: 15px;
+}
+
+.q .slider_range::-moz-range-track {
+	background: #FFFFFF;
+	border: 1px solid #CCCCCC;
+	border-radius: 0;
+	border-width: 1px;
+}
+
+.q .slider_range::-moz-range-thumb {
+	border: none;
+	border-radius: 4px;
+	background: #2C385B;
+}
+
+.q .slider_range::-webkit-slider-runnable-track {
+	background: #FFFFFF;
+	border: 1px solid #CCCCCC;
+	border-radius: 0;
+	border-width: 1px;
+}
+
+.q .slider_range::-webkit-slider-thumb {
+	border-radius: 4px;
+	background: #2C385B;
 }
 
 .highlight {
-    background: #c4c4c4 !important;
+	background: #c4c4c4    !important;
 }
 
 tr.highlight td {
-	background: #FFF7BE      !important;
+	background: #c4c4c4    !important;
+}
+
+.q .scroller {
+	border: 1px solid #D1D6DA;
 }
 
 .outside {
@@ -209,18 +249,17 @@ tr.highlight td {
 
 .outside_container {
 	width: 90%;
-	padding: 1em 0;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 1em auto;
 	text-align: center;
 	color: #000000;
+	margin-left: auto;
 }
 
 .outside_container .submit_button {
 	color: #FFFFFF !important;
 	background: #727678;
 	background-size: auto;
-	border-style: none;
+	border-style: solid;
 	border-width: 1px;
 	border-color: #FFFFFF;
 	border-radius: 4px;
@@ -230,7 +269,6 @@ tr.highlight td {
 	font-weight: normal;
 	min-width: 0;
 	padding: 10px 20px;
-	text-transform: none;
 	box-shadow: none;
 }
 
@@ -273,35 +311,10 @@ tr.highlight td {
 	background: #FFEEEE;
 }
 
-/* --- ASK modified color 8.8.22 --- */
 .outside_container .submit_button:hover, .outside_container .submit_button:focus {
-	background: #B2B7BB;
-    background: #03619f;
+	background: #03619F;
 	background-size: auto;
 	border-color: #BBBBBB;
 }
 
-.q .slider_range {
-	font-size: 15px;
-}
-.q .slider_range::-webkit-slider-runnable-track {
-	background: #FFFFFF;
-	border: 1px solid #CCCCCC;
-	border-radius: 0;
-	border-width: 1px;
-}
-.q .slider_range::-moz-range-track {
-	background: #FFFFFF;
-	border: 1px solid #CCCCCC;
-	border-radius: 0;
-	border-width: 1px;
-}
-.q .slider_range::-webkit-slider-thumb {
-	border-radius: 4px;
-	background: #03619f;
-}
-.q .slider_range::-moz-range-thumb {
-	border-radius: 4px;
-	background: #03619f;
-}
 </style>
