@@ -1,0 +1,307 @@
+/*
+	Theme Name: Barrett Formsite Advanced Styling Area
+	Theme URI: https://fs9.formsite.com/
+	Description: Customized styling for Barrett Donate Form
+	Author: Anne S. Katzeff
+	Author URI: https://www.askdesign.biz
+
+	Version: xxx
+
+	Tags: black, white, blue, green, orange, pink, one-column, two-columns, responsive-layout, custom-header, custom-menu, full-width-template, sticky-post, theme-options, threaded-comments, rtl-language-support
+
+	Template: genesis
+	Template Version: 2.2+
+
+	License: GPL-2.0+
+	License URI: http://www.opensource.org/licenses/gpl-license.php 
+*/
+
+
+
+
+/* ## Advanced Style Area on Formsite 
+--------------------------------------------- */
+
+<style type="text/css" media="all">
+body {
+	background: #D1D6DA;
+	background-size: auto;
+	font-family: 'Cabin', sans-serif;
+	font-size: 15px;
+}
+
+.form_table {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 0;
+	border: 0px solid #D1D6DA;
+	background: #D1D6DA;
+	background-size: auto;
+	color: #2C385B;
+	overflow: hidden;
+	box-shadow: none;
+}
+
+.form_table a {
+	color: #727678;
+}
+
+.outside a {
+	color: #727678;
+}
+
+.form_table a:visited {
+	color: #727678;
+}
+
+.outside a:visited {
+	color: #727678;
+}
+
+.segment_header {
+	width: auto;
+	margin: 1px;
+	color: #2C385B;
+	background: none;
+	background-size: ;
+	background-repeat: repeat;
+	border-radius: ;
+}
+
+.segment_header h1 {
+	border-radius: ;
+	padding: 20px 10px;
+	font-family: 'Cabin', sans-serif;
+}
+
+.q {
+	padding: 10px;
+	margin-bottom: 1px;
+	margin-left: 1px;
+	float: left;
+	display: block;
+}
+
+.q .question {
+	font-weight: bold;
+}
+
+.q .left_question_first {
+	width: 15em;
+}
+
+.q .top_question {
+	margin-bottom: ;
+}
+
+.q .text_field {
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 0;
+    border-width: 1px;
+    color: #03619f;
+    font-family: 'Cabin', sans-serif;
+    font-size: 15px;
+    margin: 1px 0;
+    padding: 3px;
+}
+
+.q .file_upload {
+	background: #FFFFFF;
+	border: 1px solid #CCCCCC;
+	border-radius: 0;
+	border-width: 1px;
+	color: #000099;
+	font-family: 'Cabin', sans-serif;
+	font-size: 12px;
+	margin-top: 1px;
+	padding: 2px 1px;
+}
+
+.q .file_upload_button {
+	margin-top: 2px;
+}
+
+.q .inline_grid td {
+	padding: 5px;
+}
+
+.q .drop_down {
+	background: #FFFFFF;
+	border: 1px solid #CCCCCC;
+	border-radius: 0;
+	border-width: 1px;
+	color: #000099;
+	font-family: 'Cabin', sans-serif;
+	font-size: 12px;
+	margin: 1px 0;
+	padding: 2px 1px;
+}
+
+.q .matrix th {
+	color: #FFFFFF;
+	background: #FFFFFF;
+	padding: 5px;
+	font-weight: bold;
+}
+
+.q .matrix td {
+	padding: 5px;
+	border-bottom: 1px solid #CCCCCC;
+	border-top: 1px solid #CCCCCC;
+}
+
+.q .matrix td.question {
+	border-right: 1px solid #CCCCCC;
+	font-weight: normal;
+}
+
+.q .matrix .multi_scale_sub th {
+	font-weight: normal;
+	border-top: 1px solid #CCCCCC !important;
+	background: #007CE1;
+}
+
+.q .matrix .multi_scale_break {
+	border-right: 1px solid #CCCCCC;
+}
+
+.q .matrix_row_dark td {
+	color: #000000;
+	background: #F0F5FF;
+}
+
+.q .matrix_row_dark td.question {
+	color: #000000;
+	background: #D2E4FF;
+}
+
+.q .matrix_row_light td {
+	color: #000000;
+	background: #FFFFFF;
+}
+
+.q .matrix_row_light td.question {
+	color: #000000;
+	background: #F0F5FF;
+}
+
+.q .rating_ranking td {
+	padding: 5px;
+}
+
+.q .scroller {
+	border: 1px solid #D1D6DA;
+}
+
+.highlight {
+    background: #c4c4c4 !important;
+}
+
+tr.highlight td {
+	background: #FFF7BE      !important;
+}
+
+.outside {
+	color: #000000;
+}
+
+.outside_container {
+	width: 90%;
+	padding: 1em 0;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: #000000;
+}
+
+.outside_container .submit_button {
+	color: #FFFFFF !important;
+	background: #727678;
+	background-size: auto;
+	border-style: none;
+	border-width: 1px;
+	border-color: #FFFFFF;
+	border-radius: 4px;
+	text-align: center;
+	font-family: 'Cabin', sans-serif;
+	font-size: 15px;
+	font-weight: normal;
+	min-width: 0;
+	padding: 10px 20px;
+	text-transform: none;
+	box-shadow: none;
+}
+
+.progressBarWrapper {
+	border-radius: 0;
+	background: #D1D6DA;
+	background-size: auto;
+	border-color: #D1D6DA;
+}
+
+.progressBarBack {
+	color: #D1D6DA;
+	background-color: #008DF2;
+}
+
+.progressBarFront {
+	color: #2C385B;
+}
+
+.ui-widget {
+	font-family: 'Cabin', sans-serif;
+}
+
+.invalid {
+	background: #FFEEEE;
+}
+
+.invalid .invalid_message {
+	color: #FF0000;
+	background: #FFEEEE;
+	border: 1px solid #FF0000;
+	border-radius: 0;
+}
+
+.form_table.invalid {
+	border: 2px solid #FF0000;
+}
+
+.invalid .matrix .invalid_row {
+	background: #FFEEEE;
+}
+
+/* --- ASK modified color 8.8.22 --- */
+.outside_container .submit_button:hover, .outside_container .submit_button:focus {
+	background: #B2B7BB;
+    background: #03619f;
+	background-size: auto;
+	border-color: #BBBBBB;
+}
+
+.q .slider_range {
+	font-size: 15px;
+}
+.q .slider_range::-webkit-slider-runnable-track {
+	background: #FFFFFF;
+	border: 1px solid #CCCCCC;
+	border-radius: 0;
+	border-width: 1px;
+}
+.q .slider_range::-moz-range-track {
+	background: #FFFFFF;
+	border: 1px solid #CCCCCC;
+	border-radius: 0;
+	border-width: 1px;
+}
+.q .slider_range::-webkit-slider-thumb {
+	border-radius: 4px;
+	background: #03619f;
+}
+.q .slider_range::-moz-range-thumb {
+	border-radius: 4px;
+	background: #03619f;
+}
+</style>
