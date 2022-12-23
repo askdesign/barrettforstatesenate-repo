@@ -242,6 +242,8 @@ blockquote {
 
 /* --- Colors added by ASK Design --- */
 .white {color: #fff;}
+.white a {color: #b2b7bb;}
+.white a:hover {color:#b2b7bb;}
 .blue-dark {color: #2c385b;}
 .blue-medium {color: #03619f;}
 
