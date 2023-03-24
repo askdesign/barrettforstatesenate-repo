@@ -19,13 +19,14 @@ define( 'CHILD_THEME_NAME', 'Optimal' );
 define( 'CHILD_THEME_URL', 'http://www.appfinite.com/shop/optimal' );
 define( 'CHILD_THEME_VERSION', '1.0.0' );
 
+//* Upload Google fonts - no longer link to Google
 //* Enqueue Scripts
 add_action( 'wp_enqueue_scripts', 'optimal_enqueue_scripts_styles' );
 function optimal_enqueue_scripts_styles() {
 
 	wp_enqueue_script( 'optimal-fadeup-script', get_stylesheet_directory_uri() . '/js/fadeup.js', array( 'jquery' ), '1.0.0', true );
-	wp_enqueue_style( 'google-fonts', 'https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap', array(), CHILD_THEME_VERSION );	
-	wp_enqueue_style( 'dashicons' );
+/* 	wp_enqueue_style( 'google-fonts', 'https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap', array(), CHILD_THEME_VERSION );	
+ */	wp_enqueue_style( 'dashicons' );
 	wp_enqueue_script( 'optimal-global', get_bloginfo( 'stylesheet_directory' ) . '/js/global.js', array( 'jquery' ), '1.0.0' );
 		
 }
