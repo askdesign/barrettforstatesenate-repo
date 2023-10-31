@@ -349,6 +349,10 @@ a:focus {
 	text-decoration: none;
 }
 
+p>a, p>a:hover {
+    text-decoration: underline;
+}
+
 p {
 	margin: 0 0 30px;
 	padding: 0;
@@ -1490,6 +1494,7 @@ img.alignright,
 .site-title a,
 .site-title a:hover {
 	color: #2c385b; /* --- was #fff --- */
+	text-decoration: none;
 }
 
 .front-page .site-header .site-title a,
@@ -2825,8 +2830,9 @@ html > body .slide-excerpt-border {
 }
 
 .site-footer a {
-	color: #b2b7bb;
-	font-weight: 400;
+    color: #b2b7bb;
+    font-weight: 400;
+    text-decoration: underline;
 }
 
 .site-footer a:hover {
