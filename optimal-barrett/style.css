@@ -422,7 +422,7 @@ h6 {
 	font-family: 'Cabin', sans-serif;
 	font-family: 'Merriweather', serif;
 	font-weight: 400;
-	letter-spacing: 1px;
+	letter-spacing: 0;
 	line-height: 1.4;
 	margin: 0 0 20px;
 	color: #2c385b;
