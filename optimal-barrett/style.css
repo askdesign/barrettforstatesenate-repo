@@ -2543,7 +2543,7 @@ Portfolio
 	letter-spacing: 1px;
 }
 
-small {
+.small {
 	font-size: 15px;
 	font-weight: 400;
 	letter-spacing: 1px;
@@ -2856,6 +2856,11 @@ html > body .slide-excerpt-border {
 	-webkit-font-smoothing: antialiased;
 	font: normal 20px/1 "dashicons";
 	margin: -78px 0 0 -68px;
+}
+
+.widget .dashicons-search,
+#custom_html-13 {
+	margin-bottom: 0;
 }
 
 
